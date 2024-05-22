@@ -1,0 +1,12 @@
+#header {
+    background-color: #282c34;
+    margin-top: 0;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#app_name {
+    color: rgb(239,239,240);
+    margin-left: 2em;
+}
