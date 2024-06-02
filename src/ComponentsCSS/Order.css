@@ -2,4 +2,51 @@
     margin: 1em;
     padding: 0.5em;
     background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.customer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1c4dae;
+    width: 50%;
+}
+
+.id-name-surname-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #f5720d;
+    width: 50%;
+}
+
+.id-icon {
+    margin-top: 0.25em;
+    background-color: #f50dd6;
+    width: 4em;
+}
+
+.id-name-surname {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.65em;
+}
+
+.location-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #0df556;
+}
+
+.loc-icon {
+    background-color: #f50dd6;
+    width: 4em;
+}
+
+.location {
+    margin-left: 0.65em;
 }
