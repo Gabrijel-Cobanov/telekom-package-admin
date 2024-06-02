@@ -1,0 +1,9 @@
+.order-list-container {
+    margin: auto;
+    width: 80%;
+}
+
+.order-list ul {
+    color: rgb(239,239,240);
+    list-style-type: none;
+}

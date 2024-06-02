@@ -1,20 +1,25 @@
 import React from 'react';
+import Order from './Order';
 import ordersData from '../data.json';
+import "../ComponentsCSS/OrderList.css"
 
 const OrderList = () => {
   return (
-    <div>
+    <div class="order-list-container">
       <h1>Order List</h1>
+      <div class="order-list">
       <ul>
-        {ordersData.map(order => (
-          <li key={order.id}>
-            <div>Order ID: {order.id}</div>
-            <div>Customer: {order.customer.name}</div>
-            <div>Total: ${order.total.toFixed(2)}</div>
-            <div>Status: {order.status}</div>
-          </li>
-        ))}
-      </ul>
+      {ordersData.map(ordersData => (
+        <Order
+          key={ordersData.id}
+          id={ordersData.id}
+          customerName={ordersData.customer.name}
+          total={ordersData.total}
+          status={ordersData.status}
+        />
+      ))}
+    </ul>
+      </div>
     </div>
   );
 };
