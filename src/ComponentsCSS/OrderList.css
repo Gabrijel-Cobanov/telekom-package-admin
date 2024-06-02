@@ -7,3 +7,34 @@
     color: #efeff0;
     list-style-type: none;
 }
+
+/* Ovo sam ovako napravio samo zato da ne odvajam u jos jedan div options toolbar ya buton ya dodavanje posiljke*/
+.shipment-options > :first-child :hover {
+    color: #63E6BE;
+}
+
+.filter-icon {
+    margin-top: 0.65em;
+    margin-left: 4em;
+}
+
+.shipment-options {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.add-shippment-button {
+    background-color: #282c34;
+    padding: 1em;
+    color: #efeff0;
+    border-radius: 10px;
+}
+
+.add-shippment-button:hover {
+    background-color: #63E6BE;;
+    padding: 1em;
+    color: #282c34;
+    border-radius: 10px;
+}

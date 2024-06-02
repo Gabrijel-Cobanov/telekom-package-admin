@@ -19,8 +19,8 @@ const StatusOption = ({ status }) => {
         </div>
       ) : (
         <div class="status-shipped">
-            <div class="status-option-icon">
-                <FontAwesomeIcon icon={faCheck} size="2xl" style={{color: "#282c34",}} />
+            <div class="status-shipped-icon">
+                <FontAwesomeIcon icon={faCheck} size="2xl" style={{color: "#63E6BE",}} />
             </div>
         </div>
       )}
