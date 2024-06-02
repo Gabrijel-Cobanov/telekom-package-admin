@@ -20,7 +20,7 @@ const OrderList = () => {
       <h1>Order List (all orders)</h1>
       <div class="shipment-options">
         <div class="filter-icon" onClick={HandleFilterButtonClick}>
-          <FontAwesomeIcon icon={faFilter} size="2xl" style={{color: "#282c34",}} />
+          <FontAwesomeIcon icon={faFilter} size="2xl" style={{color: "#FFD43B",}} />
         </div>
         <div class="add-shippment-button" onClick={HandleAddOrderButtonClick}>
           Add Shippment
@@ -38,6 +38,11 @@ const OrderList = () => {
           />
         ))}
       </ul>
+      </div>
+      <hr/>
+      <div>
+        <p>Showing results 1-5 of 332</p>
+        <p>Page 1 of 67 -&gt;</p>
       </div>
     </div>
   );

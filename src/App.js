@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Header from './Components/Header';
 import OrderList from './Components/OrderList';
+import Footer from './Components/Footer'
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       <OrderList/>
+      <Footer/>
     </div>
   );
 }

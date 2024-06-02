@@ -10,7 +10,7 @@
 
 /* Ovo sam ovako napravio samo zato da ne odvajam u jos jedan div options toolbar ya buton ya dodavanje posiljke*/
 .shipment-options > :first-child :hover {
-    color: #63E6BE;
+    color: #dd7a0a;
 }
 
 .filter-icon {
@@ -23,17 +23,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #282c34;
+    padding: 0.5em 0em;
 }
 
 .add-shippment-button {
-    background-color: #282c34;
+    background-color: #FFD43B;
     padding: 1em;
-    color: #efeff0;
+    color: #282c34;
     border-radius: 10px;
 }
 
 .add-shippment-button:hover {
-    background-color: #63E6BE;;
+    background-color: #dd7a0a;
     padding: 1em;
     color: #282c34;
     border-radius: 10px;

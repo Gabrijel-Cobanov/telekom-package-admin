@@ -53,12 +53,15 @@
     flex-direction: column;
     align-items: flex-start;
     width: 50%;
+    justify-content: center;
 }
 
 .total-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-bottom: 0.5em;
+    justify-content: space-around;
 }
 
 .status-container {
@@ -75,12 +78,6 @@
     margin-left: 0.65em;
 }
 
-.status-icon {
-    width: 4vw;
+.details > :first-child :hover {
+    color: #dd7a0a;
 }
-
-.status {
-    margin-top: 0.3em;
-    margin-left: 0.65em;
-}
-

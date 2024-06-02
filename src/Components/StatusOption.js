@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPenToSquare, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faPenToSquare, faArrowTrendUp } from '@fortawesome/free-solid-svg-icons';
 import "../ComponentsCSS/StatusOption.css"
 
 const StatusOption = ({ status }) => {
@@ -20,7 +20,10 @@ const StatusOption = ({ status }) => {
       ) : (
         <div class="status-shipped">
             <div class="status-shipped-icon">
-                <FontAwesomeIcon icon={faCheck} size="2xl" style={{color: "#63E6BE",}} />
+                <div class="shipped-delivered" style={{color: "#d42493",}}>
+                    SHIPPED
+                </div>
+                <FontAwesomeIcon icon={faArrowTrendUp} size="2xl" style={{color: "#d42493",}} />
             </div>
         </div>
       )}

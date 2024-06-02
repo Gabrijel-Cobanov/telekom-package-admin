@@ -1,0 +1,9 @@
+#footer {
+    background-color: #282c34;
+    margin-bottom: 0;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    color: #efeff0;
+    justify-content: center;
+}
